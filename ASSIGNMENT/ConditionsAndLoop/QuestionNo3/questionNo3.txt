@@ -1,0 +1,81 @@
+3.What are loops, and what do we need them? Explain different types of loops with their syntax and examples.
+
+Ans:-
+
+    Loops are programming structures that allow you to repeat a block of code multiple times until a certain condition is met. 
+    They are essential when you need to perform repetitive tasks, such as iterating over a list of items, executing a set of 
+    instructions a specific number of times, or processing user input.
+
+    Without loops, you would need to write the same code over and over again, which is inefficient. Loops help make your code 
+    more concise and easier to maintain.
+
+Types of Loops in javaScript 
+    1. for loop: ------
+        for loop is commonly used when you know how many times you want to iterate through a block of code.
+        
+        syntax:--------
+            for (initialization; condition; increment/decrement) {
+                // Code to be executed
+            }
+
+        examples:-------
+            for (let i = 0; i < 5; i++) {
+                console.log(i);
+            }
+    2. While Loop: ---------
+        The while loop is used when the number of iterations is not known in advance. The loop runs as long as 
+        the condition is true.
+
+        syntax:--------
+        while (condition) {
+            // Code to be executed
+        }
+
+        examples:-------
+            let i = 0;
+            while (i < 5) {
+            console.log(i);
+            i++;
+        }
+
+    3. Do While Loop :-----------
+        The do...while loop is similar to the while loop, but it ensures that the code block is executed at least 
+        once, even if the condition is false.
+    
+        syntax:-----
+            do{
+                //code to be executed
+            }while(condition);
+
+        examples:-------
+            let i = 0;
+            do{
+                console.log(i);
+                i++;
+            }while(i<5);
+
+    4. For ....in Loop:------
+        The for...in loop is used to iterate over the properties of an object.
+
+        syntax:-------
+            for(key in object){
+                // code to be executed
+            }
+        examples:------
+
+            const person = {name: "Rahul", age: 22, city: "Durgapur"};
+            for (let key in person) {
+            console.log(key + ": " + person[key]);
+            }
+
+
+
+    ---------------:Why do we needs loop:------------------
+    
+    Efficiency: Loops help in reducing the amount of code you need to write for repetitive tasks.
+    Automation: Tasks like iterating through data structures or automating processes can be easily handled using loops.
+    Flexibility: Loops allow dynamic decision-making, enabling code to run based on conditions rather than manually writing each step.
+
+ 
+ 
+

@@ -1,0 +1,93 @@
+1.What are conditional statements? Explain conditional statements with syntax and examples.
+
+ans:
+
+Conditional statements are used in programming to perform different actions based on different conditions. 
+These statements evaluate expressions and, depending on whether the condition is True or False, the program 
+executes certain blocks of code.
+
+Common Conditional Statements
+    if statement: It executes a block of code if the condition is true.
+    else statement: It follows an if statement and executes when the if condition is false.
+    elif (else if) statement: It checks multiple conditions after the if statement.
+
+Syntax and Examples
+    1. if Statement
+        The if statement checks a condition, and if it’s true, the block of code is executed.
+
+    if Statement syntax:
+        if condition{
+            block of code
+        }
+            
+    examples:
+        let x = 10
+        if (x > 5){
+             console.log("x is greater than 5");
+        }
+           
+
+    2. else if Statement:
+        The else if statement comes after if statement. When multiple condition is there then this condition are must be needed. 
+        when if statement is flase then else if statement executed.
+
+    else if statement syntax:
+        if condition{
+            block of code
+        }
+            
+        else if{
+            block of code 
+        }
+            
+        
+    examples:
+        let x = 5
+        if (x > 10){
+            console.log("x is greater than 10")
+        }
+            
+        else if(x == 5){
+             console.log("x is equal to 5");
+        }
+           
+
+
+    3. Else statement:
+        else statement comes after when if condition and else  condition both are false then this condition 
+        will executed
+
+    else statement syntax:
+        if(condition){
+            block of code
+        }
+            
+        else if(condition){
+            block of code 
+        }
+            
+        else{
+            block of code 
+        }
+            
+    
+    examples:
+        let x = 5
+        if (x > 10){
+            console.log("x is greater than 10");
+        }
+            
+        else if(x == 5){
+            console.log("x is equal to 5");
+        }
+            
+        else:
+            console.log("x is less than 5");
+
+
+
+
+
+
+
+
